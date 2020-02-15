@@ -1,0 +1,178 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Background */
+
+.bg-white {
+    background-color: whitesmoke;
+}
+
+.bg-white-80 {
+    background-color: #ffffff80;
+}
+
+.bg-gradient-gray-nswhite {
+    background-image: linear-gradient(to bottom left, gray,#C6C6C6);
+}
+
+.bg-gradient-pink-green {
+    background-image: linear-gradient(to bottom left, #ff7dd4, #52f783);
+}
+
+.bg-gradient-pink-blue {
+    background-image: linear-gradient(to bottom right, pink, blue);
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-superdarkgray {
+    background-color: #555555;
+}
+
+.hover\:bg-black:hover {
+    background-color: black;
+}
+
+/* Bold */
+
+.font-light {
+    font-weight: 100;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-extrabold {
+    font-weight: 900;
+}
+
+
+/* Font Family */
+
+.font-times-roman {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.font-arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*  Text Alignment */
+
+.text-center {
+    text-align: center;
+}
+
+
+/* Text Color */
+
+.text-blue {
+    color: deepskyblue;
+}
+
+.text-red {
+    color: red
+}
+
+.text-white, .hover\:text-white:hover {
+    color: #C6C6C6;
+
+}
+
+
+/* Text Style */
+
+.no-decoration, .no-decoration:hover, .no-decoration:focus {
+    text-decoration: none;
+}
+
+/* Text Size */
+
+.text-90 {
+    font-size: 90px;
+}
+
+.text-50 {
+    font-size: 50px;
+}
+
+.text-25 {
+    font-size: 25px;
+}
+
+.text-15 {
+    font-size: 15px;
+}
+
+
+/* padding & margin */
+
+.p-30 {
+    padding: 30px;
+}
+
+.m-500 {
+    margin: 500px;
+}
+
+.m-400 {
+    margin: 400px;
+}
+
+.mx-100 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+
+/*Float*/
+
+.float {
+    float:right
+}
+/* Display */
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-block {
+    display: block;
+}
+
+
+/*Transition*/
+
+.transition-1 {
+    transition: 1s;
+}
+/*Line*/
+.vertiLal-line {
+    border-bottom: #555555;
+}
+
+
+/*Opacity*/
+
+.opacity {
+    opacity: 20%;
+}
+
+
+/*ScrollBar*/
+
+.scroll-bar {
+:-webkit-scrollbar
+    width: 50px;
+}
